@@ -15,7 +15,7 @@ public class View {
                 "8.Exit");
     }
 
-    public int getUserChoice() {
+    public int getUserChoice () {
         return io.readInt("Please choose an option",1,8);
     }
 
