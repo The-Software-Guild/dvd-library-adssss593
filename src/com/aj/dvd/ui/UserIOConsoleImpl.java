@@ -14,7 +14,7 @@ public class UserIOConsoleImpl implements UserIO{
     @Override
     public String readString(String prompt) {
         System.out.println(prompt);
-        String input = scanner.next();
+        String input = scanner.nextLine();
         return input;
     }
 
